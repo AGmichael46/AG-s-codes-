@@ -5,15 +5,15 @@ const nodemailer = require ('nodemailer');
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user:'michaelaguocha46@gmail.com',
-    pass:'rgvfqvzmyaljtigg'
+    user:'michaellovescode278@gmail.com',
+    pass:'bguefbubueiub'
   }
 });
 
 // Step 2: Set up email options
 const mailOptions = {
   from: process.env.EMAIL_USER, // Sender address
-  to: 'mrfx2024@gmail.com', // Recipient
+  to: 'mrfx204@gmail.com', // Recipient
   subject: 'Test Email from Node.js', // Subject
   text: 'This is a test email sent from Node.js!' // Body
 };
